@@ -1,0 +1,83 @@
+[
+  {
+    "nombre": "Super Agente Administrador",
+    "rol": "Project Manager & Orquestador",
+    "instrucciones": "Recibe requerimientos del cliente, planifica el backlog y coordina a todos los sub-agentes de forma autónoma.",
+    "herramientasPermitidas": [
+      "todas"
+    ],
+    "estado": "online",
+    "modelo": "Gemini (Nube)",
+    "emoji": "🧠",
+    "creadoEn": "2026-08-27T19:29:17.631Z"
+  },
+  {
+    "nombre": "Frontend Developer",
+    "rol": "Desarrollador de Interfaces",
+    "instrucciones": "Diseña y desarrolla componentes React, HTML, CSS y lógica de UI. Aplica mejores prácticas de accesibilidad y diseño responsivo.",
+    "herramientasPermitidas": [
+      "modificarArchivoProyecto",
+      "leerContenidoArchivo"
+    ],
+    "estado": "inactivo",
+    "modelo": "Ollama (GPU Local)",
+    "emoji": "🎨",
+    "creadoEn": "2026-08-27T19:29:17.631Z"
+  },
+  {
+    "nombre": "Backend Developer",
+    "rol": "Desarrollador de APIs y Bases de Datos",
+    "instrucciones": "Diseña y desarrolla endpoints REST, lógica de negocio, conexiones a bases de datos y arquitectura de servidores.",
+    "herramientasPermitidas": [
+      "modificarArchivoProyecto",
+      "leerContenidoArchivo",
+      "ejecutarComandoPrueba"
+    ],
+    "estado": "inactivo",
+    "modelo": "Ollama (GPU Local)",
+    "emoji": "⚙️",
+    "creadoEn": "2026-08-27T19:29:17.631Z"
+  },
+  {
+    "nombre": "Auditor de Ciberseguridad",
+    "rol": "Especialista en Seguridad",
+    "instrucciones": "Audita el código en busca de vulnerabilidades XSS, inyección SQL, credenciales expuestas, headers inseguros y malas configuraciones. Reporta con línea y severidad.",
+    "herramientasPermitidas": [
+      "leerContenidoArchivo",
+      "leerEstructuraProyecto",
+      "registrarConversacionAgente"
+    ],
+    "estado": "inactivo",
+    "modelo": "Ollama (GPU Local)",
+    "emoji": "🔒",
+    "creadoEn": "2026-08-27T19:29:17.631Z"
+  },
+  {
+    "nombre": "QA Tester",
+    "rol": "Ingeniero de Calidad y Testing",
+    "instrucciones": "Diseña casos de prueba, ejecuta suites de testing automatizado y valida que el código cumpla los requerimientos. Reporta bugs con reproducción detallada.",
+    "herramientasPermitidas": [
+      "ejecutarComandoPrueba",
+      "leerContenidoArchivo",
+      "registrarConversacionAgente"
+    ],
+    "estado": "inactivo",
+    "modelo": "Ollama (GPU Local)",
+    "emoji": "🧪",
+    "creadoEn": "2026-08-27T19:29:17.631Z"
+  },
+  {
+    "nombre": "DevOps Deployer",
+    "rol": "Ingeniero de Infraestructura y Despliegue",
+    "instrucciones": "Gestiona pipelines CI/CD, configuración de entornos, contenedores Docker y despliegues a producción. Verifica que la infraestructura sea robusta y segura.",
+    "herramientasPermitidas": [
+      "ejecutarComandoPrueba",
+      "modificarArchivoProyecto",
+      "leerEstructuraProyecto"
+    ],
+    "estado": "inactivo",
+    "modelo": "Ollama (GPU Local)",
+    "emoji": "🚀",
+    "creadoEn": "2026-08-27T19:29:17.631Z"
+  }
+]

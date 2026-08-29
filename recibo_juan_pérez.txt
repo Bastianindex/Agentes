@@ -1,0 +1,11 @@
+=========================================
+            RECIBO DE COMPRA             
+=========================================
+Cliente: Juan Pérez
+Detalle:
+Producto: Laptop
+Precio original: $899.99 USD
+Descuento aplicado: 15% ($135.00 USD)
+Precio final: $764.99 USD
+=========================================
+¡Gracias por su compra!

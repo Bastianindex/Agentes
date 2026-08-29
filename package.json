@@ -1,0 +1,21 @@
+{
+  "name": "gemini-autonomous-agent",
+  "version": "1.0.0",
+  "description": "Agente autonomo usando Gemini y el SDK oficial @google/genai",
+  "type": "module",
+  "main": "agente.js",
+  "scripts": {
+    "start": "node agente.js",
+    "backend": "node devServer.js",
+    "frontend": "npm run dev --prefix frontend"
+  },
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "dotenv": "^17.4.2",
+    "pdf-parse": "^2.4.5",
+    "playwright": "^1.62.1"
+  },
+  "devDependencies": {
+    "firebase-tools": "^15.28.1"
+  }
+}
